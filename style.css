@@ -1,0 +1,59 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    color: #1a237e;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #3949ab;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+section {
+    margin: 30px 0;
+    padding: 25px;
+    background-color: rgba(103, 58, 183, 0.1); /* Полупрозрачный фиолетовый */
+    border: 2px solid #673ab7; /* Фиолетовая рамка */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Центрирование содержимого */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block; /* Для центрирования списка */
+    text-align: left; /* Выравнивание текста в списке по левому краю */
+}
+
+li {
+    margin-bottom: 8px;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    color: #666;
+    font-size: 0.9em;
+}
